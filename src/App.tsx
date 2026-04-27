@@ -2,9 +2,11 @@ import { useState, useEffect } from 'react'
 import Swal from 'sweetalert2'
 import './App.css'
 import sarahImage from './assets/dr_sarah_johnson.png'
+import heroImage from './assets/hero_premium.png'
 
 // Import components
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 import Services from './components/Services'
 import Doctors from './components/Doctors'
 import Emergency from './components/Emergency'
@@ -103,6 +105,7 @@ function App() {
       />
       
       <main>
+        <Hero scrollToSection={scrollToSection} heroImage={heroImage} />
         <Services scrollToSection={scrollToSection} />
         <Doctors sarahImage={sarahImage} />
         <Emergency callEmergency={callEmergency} scrollToSection={scrollToSection} />
