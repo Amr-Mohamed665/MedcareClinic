@@ -21,8 +21,8 @@ const Hero = ({ scrollToSection, heroImage }: HeroProps) => {
                 <span className="gradient-text">Our Priority.</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-xl">
-                Experience world-class medical services with a touch of personalized care. 
-                Our team of experts is dedicated to your well-being.
+                Elevate your health journey with Medcare Clinic's world-class medical expertise and deeply 
+                personalized care. Our elite team of specialists is dedicated to your lifelong well-being.
               </p>
             </div>
 
