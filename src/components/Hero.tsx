@@ -22,7 +22,8 @@ const Hero = ({ scrollToSection, heroImage }: HeroProps) => {
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed max-w-xl">
                 Elevate your health journey with Medcare Clinic's world-class medical expertise and deeply 
-                personalized care. Our elite team of specialists is dedicated to your lifelong well-being.
+                personalized care. 
+                Our elite team of specialists is dedicated to your lifelong well-being.
               </p>
             </div>
 
